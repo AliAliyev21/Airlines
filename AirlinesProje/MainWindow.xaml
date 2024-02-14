@@ -26,10 +26,9 @@
             <TextBlock Name="ticketId"  Width="170"  Height="30" Canvas.Left="780" Canvas.Top="60" Background="White"></TextBlock>
             <TextBlock Name="scheduleId"  Width="170"  Height="30" Canvas.Left="780" Canvas.Top="100" Background="White"></TextBlock>
             <TextBlock Name="departureTime"  Width="170"  Height="30" Canvas.Left="780" Canvas.Top="140" Background="White"></TextBlock>
-            <TextBlock Name="seatNumber"  Width="170"  Height="30" Canvas.Left="780" Canvas.Top="180" Background="White"></TextBlock>
-            <TextBlock Name="classType"  Width="170"  Height="30" Canvas.Left="780" Canvas.Top="220" Background="White"></TextBlock>
+           
 
-            <Button Content="Purchase" Canvas.Left="700" Canvas.Top="450" Height="40" Width="200" Background="SkyBlue" Foreground="Black" FontStyle="Italic" FontWeight="Bold" FontSize="17"></Button>
+            <Button Click="Button_Click" Content="Purchase" Canvas.Left="700" Canvas.Top="450" Height="40" Width="200" Background="SkyBlue" Foreground="Black" FontStyle="Italic" FontWeight="Bold" FontSize="17"></Button>
         </Canvas>
     </Grid>
 </Window>

@@ -224,9 +224,12 @@ namespace AirlinesProje
                 ticketId.Text = "Plane Id : " + selectedSchedule.PlaneId;
                 scheduleId.Text = "Pilot Id : " + selectedSchedule.PilotId;
                 departureTime.Text = "Flight : " + selectedSchedule.DepartureTime;
-                seatNumber.Text = "";
-                classType.Text = "";
             }
         }
+
+         private void Button_Click(object sender, RoutedEventArgs e)
+         {
+             MessageBox.Show("Ticket was successfully purchased", "Notice of Acquisition", MessageBoxButton.OK, MessageBoxImage.Information);
+         }
     }
 }
